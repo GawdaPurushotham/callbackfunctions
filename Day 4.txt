@@ -1,0 +1,38 @@
+anonymous function
+A function without a name is called anonymous function 
+
+
+First class function
+the ability of function to be used as values and can be passed as a argument to another function and can be returned to the function is knos as first class function 
+ability to be used as values
+First class citizen
+
+var b = function (param1){
+    return function xyz(){
+
+    }
+
+}
+
+
+console.log (b());
+
+
+CallBack function
+the functiom which you pass into another function is called as callback function
+setTimeout(function () {
+  console.log("Timer");  
+}, 5000);
+
+function x(y){
+    console.log("x");
+    y();
+}
+x(function y(){
+    console.log(" y ");
+});
+
+Eventloop(theory concept)
+
+JS Engine(ALL theory concept)
+	 	
